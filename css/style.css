@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('../img/coffee.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a {
+    display: inline-block;
+    background-color: #211f2255;
+    border: 2px solid #232224a3;
+    color: #ffffffb6;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding: 2rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #c8cacc;
+    min-height: 250px;/*
+    padding: 0 15rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text div {
+    width: 80%;
+    max-width: 90rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.quality-image {
+    background-attachment: fixed;
+    background-image: url("../img/friends.webp");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image__link a {
+    background-color: #211f2255;
+    border: 2px solid #232224a3;
+    color: #ffffffb6;
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.quality-text {
+    background-color: #c5b8a9;
+    min-height: 250px;/*
+    padding: 0 15rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.quality-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+
+.quality-text div {
+    width: 80%;
+    max-width: 90rem;
+
+}
+.origin-image {
+    background-attachment: fixed;
+    background-position: top;
+    background-image: url('../img/green.webp');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-image__link a {
+    background-color: #32321687;
+    border: 2px solid #20200eb2;
+    color: #ffffffb6;
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.origin-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.origin-text {
+    background-color: #cfcb9b;
+    min-height: 250px;/*
+    padding: 0 15rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-text div {
+    width: 80%;
+    max-width: 90rem;
+}
+
+.origin-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: #5f4536;
+    color: #dbdbdb;
+    font-size: 2rem;
+    padding-top: 2rem;
+
+}
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+.footer ul li a {
+    color: #dbdbdb;
+    text-decoration: none;
+}
+
+.footer ul li {
+    transition: all 0.5s ease-in-out;
+}
+
+.footer ul li:hover {
+    transform: scale(1.2);
+}
